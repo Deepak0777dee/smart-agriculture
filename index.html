@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stackly — Intelligent Drones For Modern Agriculture</title>
+  <meta name="description" content="Stackly empowers modern agriculture with advanced drone technology, precision spraying, and smart monitoring." />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+<div id="page-loader">
+  <div style="position:relative;display:flex;align-items:center;justify-content:center;">
+    <div class="loader-logo"><img src="images/logo-stackly.webp" alt="Stackly" /></div>
+    <div class="loader-ring"></div>
+  </div>
+  <div class="loader-text">Loading</div>
+</div>
+<header class="header" id="mainHeader">
+  <div class="header-inner">
+    <a href="index.html" class="header-logo"><img src="images/logo-stackly.webp" alt="Stackly" /></a>
+    <nav class="header-nav">
+      <a href="index.html">Home</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="login.html" class="btn btn-outline btn-sm">Sign In</a>
+      <a href="signup.html" class="btn btn-primary btn-sm">Get Started</a>
+    </div>
+    <button class="ham-btn" id="hamBtn" aria-label="Menu">
+      <svg class="ham-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="mobile-overlay"></div>
+    <div class="mobile-sidebar">
+      <nav class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="login.html" class="btn btn-outline btn-sm">Sign In</a>
+        <a href="signup.html" class="btn btn-primary btn-sm">Get Started</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg"><img src="images/hero-bg.webp" alt="Smart Agriculture" /></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Intelligent Drones For <span>Modern Agriculture</span></h1>
+      <p>Empowering farmers, optimizing crop yields, and protecting ecosystems with cutting-edge drone technology and precision agriculture tools for a sustainable future.</p>
+      <div class="hero-btns">
+        <a href="solutions.html" class="btn btn-primary btn-lg">Get Started <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        <a href="services.html" class="btn btn-white btn-lg">Our Services</a>
+      </div>
+    </div>
+    <div class="hero-image"><img src="images/drone-surveillance.webp" alt="Agricultural Drone" /></div>
+  </div>
+</section>
+
+<section class="partners-bar">
+  <div class="container">
+    <p>TRUSTED BY FARMERS AND AGRICULTURE LEADERS WORLDWIDE</p>
+    <div class="partners-logos">
+      <span>&#127806; FarmTech</span><span>&#128681; AgroDrone</span><span>&#127793; GreenField</span><span>&#128225; CropSense</span><span>&#127758; EcoHarvest</span>
+    </div>
+  </div>
+</section>
+
+<section class="intro-block">
+  <div class="container">
+    <div class="intro-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+    <p class="section-subtitle" style="max-width:700px;margin:0 auto;">We harness advanced drone technology and precision agriculture tools to empower farmers, protect ecosystems, and build sustainable food systems. By combining innovative engineering with environmental responsibility, we help rural communities reduce waste, improve efficiency, and maximize crop harvest throughout the season.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split-grid">
+      <div class="split-card split-card-accent">
+        <div class="section-label">Our Mission</div>
+        <h3>A Future Rooted In Smart Farming</h3>
+        <p>We are committed to transforming traditional farming practices through intelligent automation, drone-powered precision spraying, and data-driven crop health insights that maximize yield while minimizing environmental impact.</p>
+        <div style="margin-top:1.5rem;"><a href="solutions.html" class="btn btn-primary btn-sm">Learn More</a></div>
+      </div>
+      <div class="split-card" style="background:#1a3a2a;color:#fff;">
+        <div class="section-label" style="color:#9ccc65;">Impact</div>
+        <h3 style="color:#fff;">Revolutionizing Agriculture With Drones</h3>
+        <div class="big-stat">1.5M+</div>
+        <p style="color:rgba(255,255,255,0.7);">Acres monitored and treated using our precision drone fleet, helping over 50,000 farmers achieve record crop yields with 40% less chemical usage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#f7f9f4;">
+  <div class="container">
+    <div class="features-split">
+      <div class="features-left">
+        <div class="section-label">Why Choose Us</div>
+        <h2>Smarter Technology For Modern Farming</h2>
+        <p class="section-subtitle" style="margin-bottom:1.5rem;">Our integrated drone ecosystem provides comprehensive agricultural management from precision monitoring to sustainable farming practices.</p>
+        <a href="services.html" class="btn btn-primary">Explore Services</a>
+      </div>
+      <div>
+        <div class="feature-accordion-item active">
+          <button class="feature-accordion-btn">Precision Monitoring <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="feature-accordion-body"><p>Real-time aerial imaging and multispectral analysis enables farmers to detect crop stress, nutrient deficiencies, and pest infestations before they become visible to the naked eye.</p></div>
+        </div>
+        <div class="feature-accordion-item">
+          <button class="feature-accordion-btn">Targeted Spraying <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="feature-accordion-body"><p>GPS-guided precision spraying reduces chemical usage by up to 40% while ensuring every plant receives exactly the treatment it needs for optimal growth.</p></div>
+        </div>
+        <div class="feature-accordion-item">
+          <button class="feature-accordion-btn">Faster Field Coverage <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="feature-accordion-body"><p>Our drones cover up to 100 acres per hour, dramatically reducing the time and labor needed for field monitoring and treatment applications.</p></div>
+        </div>
+        <div class="feature-accordion-item">
+          <button class="feature-accordion-btn">Sustainable Farming <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+          <div class="feature-accordion-body"><p>By minimizing chemical runoff and optimizing resource usage, our solutions help farmers transition to environmentally responsible practices without sacrificing productivity.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container text-center">
+    <div class="section-label" style="justify-content:center;">Our Technology</div>
+    <h2 class="section-title">Advanced Technology Powering Smart Farming</h2>
+    <p class="section-subtitle">Cutting-edge drone systems and IoT sensors working together to revolutionize agricultural productivity.</p>
+    <div class="tech-cards" style="margin-top:2.5rem;">
+      <div class="tech-card"><div class="tech-card-img"><img src="images/precision-spraying.webp" alt="Precision Spraying" /></div><div class="tech-card-body"><h4>Precision Spraying</h4><p>GPS-guided drone spraying systems that apply pesticides and fertilizers with pinpoint accuracy, reducing waste by 40%.</p></div></div>
+      <div class="tech-card"><div class="tech-card-img"><img src="images/field-sensors.webp" alt="Smart Field Sensors" /></div><div class="tech-card-body"><h4>Smart Field Sensors</h4><p>IoT-enabled soil sensors that continuously monitor moisture levels, nutrient content, and pH balance in real-time.</p></div></div>
+      <div class="tech-card"><div class="tech-card-img"><img src="images/drone-surveillance.webp" alt="Drone Surveillance" /></div><div class="tech-card-body"><h4>Drone Surveillance</h4><p>High-altitude surveillance drones with multispectral cameras that capture detailed crop health data across thousands of acres.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="stats-section">
+  <div class="container text-center">
+    <div class="section-label" style="justify-content:center;">Our Impact</div>
+    <h2 class="section-title">Driving Real Impact In Modern Agriculture</h2>
+    <p class="section-subtitle">Through advanced drone technology and smart farming innovations, we have helped thousands of farmers optimize operations.</p>
+    <div class="stats-grid" style="margin-top:2.5rem;">
+      <div class="stat-item"><div class="stat-number" data-count="120" data-suffix="K+">0</div><div class="stat-label">Acres Monitored</div></div>
+      <div class="stat-item"><div class="stat-number" data-count="1500" data-suffix="+">0</div><div class="stat-label">Drone Missions</div></div>
+      <div class="stat-item"><div class="stat-number" data-count="95" data-suffix="%">0</div><div class="stat-label">Crop Health Accuracy</div></div>
+      <div class="stat-item"><div class="stat-number" data-count="50" data-suffix="K+">0</div><div class="stat-label">Farmers Supported</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="workflow-section">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:3rem;">
+      <div class="section-label" style="justify-content:center;">How It Works</div>
+      <h2 class="section-title">Advanced Technology Powering Smart Farming</h2>
+    </div>
+    <div class="workflow-grid">
+      <div class="workflow-steps">
+        <div class="workflow-step"><div class="workflow-dot">01</div><div><h4>Field Mapping</h4><p>Our drones create high-resolution aerial maps of your entire property, identifying terrain variations and optimal planting zones.</p></div></div>
+        <div class="workflow-step"><div class="workflow-dot">02</div><div><h4>Drone Deployment</h4><p>Autonomous drones are deployed based on intelligent scheduling, covering maximum acreage with minimal flight time.</p></div></div>
+        <div class="workflow-step"><div class="workflow-dot">03</div><div><h4>Crop Monitoring</h4><p>Multispectral imaging captures detailed crop health data, detecting early signs of disease and nutrient deficiency.</p></div></div>
+        <div class="workflow-step"><div class="workflow-dot">04</div><div><h4>Precision Action</h4><p>Based on analyzed data, targeted interventions are executed from precision spraying to irrigation adjustments.</p></div></div>
+      </div>
+      <div class="workflow-image">
+        <img src="images/crop-monitoring.webp" alt="Crop Monitoring" />
+        <div class="workflow-float-card">
+          <h5>Real-Time Crop Insights</h5>
+          <div class="progress-bar"><div class="progress-fill" style="width:80%;background:#7cb342;"></div></div>
+          <div class="progress-label">80% &mdash; Crop Health Score</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonial-section">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:3rem;">
+      <div class="section-label" style="justify-content:center;">Testimonials</div>
+      <h2 class="section-title">What Farmers Say About Us</h2>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-avatar"><img src="images/farmer-portrait.webp" alt="Michael Carter" /></div>
+      <div class="testimonial-body">
+        <blockquote>"I've been farming for over 18 years, and adopting drone technology transformed how we manage our crops. Real-time monitoring and data-driven spraying helped us reduce costs, improve efficiency, and expand our harvest throughout the season."</blockquote>
+        <div class="author-name">Michael Carter</div>
+        <div class="author-role">Farm Owner, Green Valley Estate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <div>
+        <h2>Together, We Can Transform Modern Farming</h2>
+        <p>Smart Technology, Better Harvests &mdash; Join thousands of farmers using Stackly to optimize their operations.</p>
+      </div>
+      <a href="signup.html" class="btn btn-white btn-lg">Get Started <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="faq-section">
+  <div class="container text-center">
+    <div class="section-label" style="justify-content:center;">FAQ</div>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-question">How do agricultural drones help farmers? <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-answer"><p>Agricultural drones provide aerial monitoring, precision spraying, and crop health analysis. They help farmers detect issues early, optimize chemical usage, and improve yield by up to 30%.</p></div></div>
+      <div class="faq-item"><button class="faq-question">What type of data do drones collect? <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-answer"><p>Our drones collect multispectral imagery, thermal data, NDVI maps, elevation models, and high-resolution photographs to identify crop stress and pest infestations.</p></div></div>
+      <div class="faq-item"><button class="faq-question">Can drones reduce fertilizer and pesticide use? <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-answer"><p>Yes! Precision spraying technology reduces chemical usage by up to 40% by applying treatments only where needed, saving costs and protecting the environment.</p></div></div>
+      <div class="faq-item"><button class="faq-question">Do drones work for large farms? <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-answer"><p>Absolutely. Our drone fleet can cover up to 100 acres per hour, ideal for large-scale farming. We offer enterprise plans for farms exceeding 1,000 acres.</p></div></div>
+      <div class="faq-item"><button class="faq-question">How often should drones be used for crop monitoring? <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-answer"><p>We recommend weekly monitoring during active growing seasons and bi-weekly during dormant periods. Our scheduling system automatically plans optimal flight paths.</p></div></div>
+      <div class="faq-item"><button class="faq-question">Is drone technology difficult for farmers to use? <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-answer"><p>Not at all. Our platform is designed for simplicity. Farmers receive easy-to-understand reports and actionable recommendations through our dashboard.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#f7f9f4;">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:1rem;">
+      <div class="section-label" style="justify-content:center;">Blog</div>
+      <h2 class="section-title">Insights On Smart Farming &amp; Drone Technology</h2>
+    </div>
+    <div class="blog-cards">
+      <div class="blog-card"><div class="blog-card-img"><img src="images/smart-farm.webp" alt="Blog" /></div><div class="blog-card-body"><div class="blog-tag">Technology</div><h4>How Drone Technology Is Transforming Modern Farming</h4><p>Explore how agricultural drones are revolutionizing crop management through precision monitoring and real-time data analytics.</p></div></div>
+      <div class="blog-card"><div class="blog-card-img"><img src="images/precision-spraying.webp" alt="Blog" /></div><div class="blog-card-body"><div class="blog-tag">Innovation</div><h4>5 Ways Drones Improve Crop Monitoring</h4><p>Discover the five key methods drone surveillance enhances crop health detection, pest identification, and yield prediction.</p></div></div>
+      <div class="blog-card"><div class="blog-card-img"><img src="images/field-sensors.webp" alt="Blog" /></div><div class="blog-card-body"><div class="blog-tag">Sustainability</div><h4>Precision Spraying For Efficient Farming</h4><p>Learn how GPS-guided precision spraying reduces chemical waste by 40% while maintaining maximum crop protection.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"></footer>
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
