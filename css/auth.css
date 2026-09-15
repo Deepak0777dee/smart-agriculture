@@ -34,6 +34,25 @@
   background: radial-gradient(circle, rgba(26, 58, 42, 0.06) 0%, transparent 70%);
 }
 
+.back-btn-top {
+  position: absolute;
+  top: 2.5rem;
+  left: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: color var(--transition);
+  text-decoration: none;
+  z-index: 10;
+}
+.back-btn-top:hover {
+  color: var(--accent-dark);
+}
+
 .auth-card {
   width: 100%;
   max-width: 440px;
@@ -51,6 +70,7 @@
 .auth-logo {
   display: flex;
   justify-content: center;
+  margin-top: 3.5rem;
   margin-bottom: 2rem;
 }
 .auth-logo img { height: 36px; }

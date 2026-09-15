@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <ul>
               <li><a href="mailto:info@thestackly.com">info@thestackly.com</a></li>
               <li><a href="tel:+917010792745">+91 70107 92745</a></li>
-              <li><a href="contact.html">MMR Complex, Salem, TN</a></li>
+              <li><a href="https://maps.google.com/?q=MMR+Complex,+Salem,+TN" target="_blank" rel="noopener noreferrer">MMR Complex, Salem, TN</a></li>
               <li><a href="contact.html">Mon–Fri 9AM–6PM</a></li>
             </ul>
           </div>
